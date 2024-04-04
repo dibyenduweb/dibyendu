@@ -275,17 +275,25 @@ section{
     animation: animate 1s linear infinite;
 }
 
-.img-hero{
+.hero-img{
     position: relative;
     animation: floatImage 4s ease-in-out infinite;
     animation-delay: 3s;
+
+    
+    
 }
 
-.img-hero img{
+.hero-img img{
     position: relative;
-    width: 400px;
-    height: auto;
+    width:400px;
+    border-radius: 600px;
+    height: 400px;
     z-index: 10;
+    border: 2px solid #f7246a;
+    
+
+
 }
 
 .rotate-text{
@@ -360,7 +368,9 @@ section{
 }
 
 .about .about-img .aboutHero{
-    width: 40vw;
+    width: 30vw;
+    border-radius: 20px;
+    box-shadow: 5px 01px;
     height: auto;
 }
 
@@ -1093,7 +1103,7 @@ footer{
     .portfolio-gallery{
         grid-template-columns: repeat(auto-fill,minmax(250px , 1fr));
     }
-    .img-hero{
+    .hero-img{
         margin-top: 3rem;
     }
 }
@@ -1167,7 +1177,7 @@ footer{
     .rotate-text{
         display: none;
     }
-    .img-hero img{
+    .hero-img img{
         width: 100%;
     }
     .text-animate{
